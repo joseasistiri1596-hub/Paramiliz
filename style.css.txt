@@ -1,50 +1,38 @@
-body {
-    background-color: #ff4d6d; /* Un rosa fuerte de fondo */
-    background-image: radial-gradient(circle, #ff85a1 10%, transparent 20%);
-    background-size: 20px 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    font-family: 'Arial', sans-serif;
-}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Mi Amor Eterno</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="hearts-container" id="hearts-container"></div>
 
-.card {
-    background: rgba(255, 255, 255, 0.9);
-    padding: 40px;
-    border-radius: 30px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-    max-width: 800px;
-    width: 90%;
-}
+    <div class="card">
+        <div class="content">
+            <div class="text-section">
+                <h1>Para Mi Amor Eterno</h1>
+                <p class="poem">"Contigo cada día es San Valentín. <br> 
+                   Eres mi refugio, mi alegría, mi universo."</p>
+                
+                <div class="counter-box">
+                    <p>Nuestro tiempo juntos:</p>
+                    <div id="timer">00d 00h 00m 00s</div>
+                </div>
+                
+                <span class="signature">— Tu Adorador Secreto ♡</span>
+            </div>
+            
+            <div class="image-section">
+                <img src="https://img.freepik.com/vector-premium/arbol-forma-corazon-hojas-rojas-rosas_6735-816.jpg" alt="Árbol de Amor" class="floating-tree">
+            </div>
+        </div>
+    </div>
 
-.content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+    <script src="script.js"></script>
+</body>
+</html>
 
-.text-section {
-    flex: 1;
-    color: #555;
-}
-
-.signature {
-    display: block;
-    margin-top: 20px;
-    font-weight: bold;
-    font-style: italic;
-}
-
-.heart-tree {
-    width: 300px;
-    height: auto;
-}
-
-#timer {
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: #ff4d6d;
-    margin-top: 10px;
 }
