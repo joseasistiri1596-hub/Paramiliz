@@ -1,0 +1,50 @@
+body {
+    background-color: #ff4d6d; /* Un rosa fuerte de fondo */
+    background-image: radial-gradient(circle, #ff85a1 10%, transparent 20%);
+    background-size: 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 30px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    max-width: 800px;
+    width: 90%;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-section {
+    flex: 1;
+    color: #555;
+}
+
+.signature {
+    display: block;
+    margin-top: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.heart-tree {
+    width: 300px;
+    height: auto;
+}
+
+#timer {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ff4d6d;
+    margin-top: 10px;
+}

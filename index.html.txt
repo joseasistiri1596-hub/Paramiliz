@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="LIZ" content="width=device-width, initial-scale=1.0">
+    <title>Feliz dia de San Valentín</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <div class="content">
+            <div class="text-section">
+                <h2>Para el amor de mi vida:</h2>
+                <p>Si pudiera elegir un lugar seguro, sería a tu lado.</p>
+                <p>Cuanto más tiempo estoy contigo, más te amo.</p>
+                <span class="signature">— I Love You!</span>
+                
+                <div class="counter-container">
+                    <p>Mi amor por ti comenzó hace:</p>
+                    <div id="timer">Cargando tiempo...</div>
+                </div>
+            </div>
+            
+            <div class="tree-section">
+                <img src="https://img.freepik.com/vector-premium/arbol-forma-corazon-hojas-rojas-rosas_6735-816.jpg" alt="Árbol de corazones" class="heart-tree">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
